@@ -3,9 +3,10 @@
 ---
 **Things to Know**
 * This guide details how to download and use a pre-built llama.cpp binary for macOS along with a 7B weight model on an Intel Mac.
-* These instructions are written with simplicity in mind so anyone can follow along, even if you're not a tech whiz.
-* Device: 2018 MacBook Pro, 2.3 GHZ Quad-Code Inter Core i5, 8GB RAM, macOS 14.3.1
-* Dependices: Aside from the downloading the binary and the model, no additional installs were required. My mac was running on a fresh install of macOS 14.3.1.
+* These instructions were written with simplicity in mind so anyone can follow along, even for those who are not tech whizzes. As such, the steps may not be the most advanced or optimized for tech experts.
+* Original instructions: For those interested in exploring the original instructions provided by the creeator of llama.cpp, they can be found at this website: https://github.com/ggerganov/llama.cpp
+* Device used: 2018 MacBook Pro, 2.3 GHZ Quad-Code Inter Core i5, 8GB RAM, macOS 14.3.1
+* Dependencies: Aside from the downloading the binary and the model, no extra installs are needed.
 ---
 ## Download and Set Up
 1. On the Mac, open the Home folder by using the keyboard shortcut <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>. 
