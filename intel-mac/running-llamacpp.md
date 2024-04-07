@@ -4,7 +4,7 @@
 **Things to Know**
 * This guide details how to download and use a pre-built llama.cpp binary for macOS along with a 7B weight model on an Intel Mac.
 * These instructions were written with simplicity in mind so anyone can follow along, even for those who are not tech whizzes. As such, the steps may not be the most advanced or optimized for tech experts.
-* Original instructions: For those interested in exploring the original instructions provided by the creeator of llama.cpp, they can be found at this website: https://github.com/ggerganov/llama.cpp
+* Original instructions: For those interested in exploring the original instructions provided by the creator of llama.cpp, they can be found at this website: https://github.com/ggerganov/llama.cpp
 * Device used: 2018 MacBook Pro, 2.3 GHZ Quad-Code Inter Core i5, 8GB RAM, macOS 14.3.1
 * Dependencies: Aside from the downloading the binary and the model, no extra installs are needed.
 ---
@@ -62,10 +62,11 @@
 
 
 14. Open a web browser and enter this localhost address: http://127.0.0.1:8080. The page displays the interface for chatting with the model.
+15. Type a message into the field at the bottom of the window. Click Send.
 
     <img width="842" alt="Intel-Mac-Chat" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/9c5ef262-cd3c-4928-9ebf-8ff4ad97cf59">
 
-15. To exit the chat, go back to the Terminal window and press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
+16. To exit the chat, go back to the Terminal window and press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
 
 ## Running llama.cpp again in the future
 The next time you want to run llama.cpp, just follow these steps:
