@@ -4,7 +4,7 @@
 **Things to Know**
 * This guide details how to download and use llamafile with a 7B weight model on an Intel Mac.
 * These instructions were written with simplicity in mind so anyone can follow along, even for those who are not tech whizzes. As such, the steps may not be the most advanced or optimized for tech experts.
-* Original instructions: For those interested in exploring the original instructions provided by the creeator of llamafile, they can be found at this website: https://github.com/Mozilla-Ocho/llamafile
+* Original instructions: For those interested in exploring the original instructions provided by the creator of llamafile, they can be found at this website: https://github.com/Mozilla-Ocho/llamafile
 * Device used: 2018 MacBook Pro, 2.3 GHZ Quad-Code Inter Core i5, 8GB RAM, macOS 14.3.1 (fresh install)
 * Dependencies: Aside from downloading the llamafile, no extra installs are needed.
 ---
@@ -41,6 +41,7 @@
     <img width="593" alt="Intel-Mac-lf-cd3_20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/9aa5f09c-e0bb-42c2-bfc9-f10615cd3698">
 
 14. Wait about 1 minute and a web browser window will automatically open this localhost address: http://127.0.0.1:8080.
+15. Type a message into the field at the bottom of the window. Click Send.
     
     <img width="889" alt="Intel-Mac-lf-chat_20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/b57945b3-457b-4dfc-8b78-8006434e29dd">
 
