@@ -7,7 +7,7 @@
 * Device: 2018 MacBook Pro, 2.3 GHZ Quad-Code Inter Core i5, 8GB RAM, macOS 14.3.1
 * Dependices: Aside from the downloading the binary and the model, no additional installs were required. My mac was running on a fresh install of macOS 14.3.1.
 ---
-
+## Download and Set Up
 1. On the Mac, open the Home folder by using the keyboard shortcut <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>. 
 2. Inside the Home folder, create a new folder and name it “llama.cpp”. Create another new folder and name it “Models.”
 
@@ -35,11 +35,11 @@
 10. Type “Terminal” and click it to launch the application.
     <img width="601" alt="Intel-Mac-Spotlight-Terminal-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/3e1a2061-efc7-4e11-834d-8e637ab81cb5">
 
-11. In the Terminal window, paste the following command and press the return key: `cd llama.cpp`.
+11. In the Terminal window, paste the following command and press the return key: `cd llama.cpp`
     
     <img width="595" alt="Intel-Mac-cd1_20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/2b7da531-aa9c-4523-9bdf-930fbf4bbbea">
 
-12. Next, paste the following command and press return: `./server -m ~/Models/mistral-7b-instruct-v0.2.Q4_K_M.gguf -ngl 0`.
+12. Next, paste the following command and press return: `./server -m ~/Models/mistral-7b-instruct-v0.2.Q4_K_M.gguf -ngl 0`
     
     <img width="595" alt="Intel-Mac-cd2_20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/68b992f8-04a9-4ebf-bf24-a580953ec3a4">
 
@@ -65,3 +65,11 @@
     <img width="842" alt="Intel-Mac-Chat" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/9c5ef262-cd3c-4928-9ebf-8ff4ad97cf59">
 
 15. To exit the chat, go back to the Terminal window and press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
+
+## Running llama.cpp again in the future
+The next time you want to run llama.cpp, just follow these steps:
+1. Open the Terminal application.
+2. In the Terminal window, paste the following command and press the return key: `cd llama.cpp` 
+3. Next, paste the following command and press return: `./server -m ~/Models/mistral-7b-instruct-v0.2.Q4_K_M.gguf -ngl 0`
+4. Open a web browser and enter this localhost address: http://127.0.0.1:8080
+5. To exit the chat, go back to the Terminal window and press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
