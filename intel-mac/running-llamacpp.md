@@ -10,21 +10,26 @@
 
 1. On the Mac, open the Home folder by using the keyboard shortcut <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>. 
 2. Inside the Home folder, create a new folder and name it “llama.cpp”. Create another new folder and name it “Models.”
-  <img width="728" alt="Intel-Mac-Create-Folders-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/44075f5f-daac-4269-9e1f-de32da6ef98e">
+
+    <img width="728" alt="Intel-Mac-Create-Folders-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/44075f5f-daac-4269-9e1f-de32da6ef98e">
 
 3. Open a web browser and go to the following webpage: https://github.com/ggerganov/llama.cpp/releases
 4. On the webpage, download the latest llama-b1-bin-macos-x64.zip file. The b2589 release was the latest version when I downloaded it.
-  <img width="730" alt="Intel-Mac-Download-llamacpp-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/51bbba5f-10bc-40be-8352-01cce474a079">
+
+    <img width="730" alt="Intel-Mac-Download-llamacpp-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/51bbba5f-10bc-40be-8352-01cce474a079">
 
 5. Extract the zip. Open the build folder, then open the bin subfolder. Select all the files and move them into the newly created “llama.cpp” folder in the Home folder.
-  <img width="730" alt="Intel-Mac-Move-llamacpp-Files-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/25a7137a-9220-4679-9def-1c81e333dc37">
+
+    <img width="730" alt="Intel-Mac-Move-llamacpp-Files-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/25a7137a-9220-4679-9def-1c81e333dc37">
 
 6. Go to the following webpage: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
 7. Search for the Q4_K_M model and download it.
-  <img width="730" alt="Mistral-7B-HF-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/bbfbcdf9-377f-4284-ad04-a3b7b1ae32ec">
+
+    <img width="730" alt="Mistral-7B-HF-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/bbfbcdf9-377f-4284-ad04-a3b7b1ae32ec">
 
 8. Move the downloaded Q4_K_M model from the Downloads folder into the newly created “Models” folder in the Home folder.
-  <img width="730" alt="Intel-Mac-Move-Model-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/0bcff990-d054-4b50-a250-66a38e2103be">
+
+    <img width="730" alt="Intel-Mac-Move-Model-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/0bcff990-d054-4b50-a250-66a38e2103be">
 
 9. Open the Spotlight search by using the keyboard shortcut <kbd>Cmd</kbd> + <kbd>Spacebar</kbd>.
 10. Type “Terminal” and click it to launch the application.
@@ -51,9 +56,12 @@
       <img width="266" alt="Intel-Mac-Server-Popup2-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/92e1ff8d-e186-4c3c-a262-5669cf38a51c">
 
 13. Wait about 15 seconds until the terminal window shows text that reads “all slots are idle”.
-    <img width="590" alt="Intel-Mac-all-slots-idle-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/1f7bfe70-46ac-4cff-88b5-0de96283ff26">
+
+    <img width="590" alt="Intel-Mac-all-slots-idle-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/91452518-c314-4ee2-a71a-c08b66f21d5f">
+
 
 14. Open a web browser and enter this localhost address: http://127.0.0.1:8080. The page displays the interface for chatting with the model.
+
     <img width="842" alt="Intel-Mac-Chat" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/9c5ef262-cd3c-4928-9ebf-8ff4ad97cf59">
 
 15. To exit the chat, go back to the Terminal window and press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
