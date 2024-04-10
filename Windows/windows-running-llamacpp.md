@@ -34,6 +34,8 @@
 8. Move the downloaded Q4_K_M model from the Downloads folder into the newly created “Models” folder in the user directory.
 
     
+    ![windows-move-hf-20240408](https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/45e6754d-e422-47cc-9fee-3398be60164b)
+
 
 9. Click the Start button, then type cmd in the search bar. Click on the Command Prompt app in the results to launch it.
     
@@ -43,14 +45,16 @@
     ![windows-llamacpp-cd1-20240408](https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/15026dde-cd8c-4f1e-a2f1-73e8d50f4d4f)
 
 
-11. Next, paste the following command and press return: `.\server -m ~/Models/mistral-7b-instruct-v0.2.Q4_K_M.gguf`
+11. Next, paste the following command and press return: `.\server -m ../Models/mistral-7b-instruct-v0.2.Q4_K_M.gguf`
     
      ![windows-llamacpp-cd2-20240408](https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/c42e8811-3fcb-4a1a-b36b-60340cc9deac)
 
 
     1. If one of these errors appear, the Microsoft Visual C++ Redistributable needs to be installed (https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-    ![MSVCP140](https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/2ae6f92f-7582-49c1-9a75-0ff3e20804a4)
-    ![VCRUNTIME140_1](https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/8f9e11af-cd94-4b8f-8256-47468f2a6bd1)
+       
+        ![MSVCP140](https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/2ae6f92f-7582-49c1-9a75-0ff3e20804a4)
+
+        ![VCRUNTIME140_1](https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/8f9e11af-cd94-4b8f-8256-47468f2a6bd1)
 
 
 
@@ -72,6 +76,6 @@
 The next time you want to run llama.cpp, just follow these steps:
 1. Open the Command Prompt application.
 2. In the command prompt window, paste the following command and press the return key: `cd llama.cpp` 
-3. Next, paste the following command and press return: `.\server -m ~/Models/mistral-7b-instruct-v0.2.Q4_K_M.gguf`
+3. Next, paste the following command and press return: `.\server -m ../Models/mistral-7b-instruct-v0.2.Q4_K_M.gguf`
 4. Open a web browser and enter this localhost address: http://127.0.0.1:8080
 5. To exit the chat, go back to the command prompt window and press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
