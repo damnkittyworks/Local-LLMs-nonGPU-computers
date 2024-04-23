@@ -1,7 +1,7 @@
 # Running llama.cpp on Windows 10/11
 ---
 **Things to Know**
-* This guide details how to download and use llamafile with a 7B model on a Windows 10 or 11 computer with 16 GB RAM. (<s>I do not know if laptops with only 8 GB RAM will be able to run the 7B model. You might need to download a smaller model such as Phi-2.</s> I've tested the instructions on an Intel Core i3 8GB RAM laptop. In my opinion, the speed is okay for chatting purposes, ~1.5 tk/s. It's like watching someone type slowly.)
+* This guide details how to download and use llama.cpp with a 7B model on a Windows 10 or 11 computer with 16 GB RAM. (<s>I do not know if laptops with only 8 GB RAM will be able to run the 7B model. You might need to download a smaller model such as Phi-2.</s> I've tested the instructions on an Intel Core i3 8GB RAM laptop. In my opinion, the speed is okay for chatting purposes, ~1.5 tk/s. It's like watching someone type slowly.)
 * These instructions were written with simplicity in mind so anyone can follow along, even for those who are not tech whizzes. As such, the steps may not be the most advanced or optimized for tech experts.
 * Original instructions: For those interested in exploring the original instructions provided by the creator of llama.cpp, they can be found at this website: https://github.com/ggerganov/llama.cpp
 * Devices tested: HP ZBook 17 G4, Intel Xeon E3-1505M, 64GB RAM, Windows 10 Pro (fresh reset); Dell Latitude 5580, i7-7820HQ, 32GB RAM, Windows 11; HP 15-ac121dx, i3-5010U, 8GB RAM, Windows 10; HP 15-ac121dx, i3-5010U, 16GB RAM, Windows 10
