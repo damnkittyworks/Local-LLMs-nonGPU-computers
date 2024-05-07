@@ -15,7 +15,7 @@
     <img width="728" alt="Intel-Mac-Create-Folders-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/44075f5f-daac-4269-9e1f-de32da6ef98e">
 
 3. Open a web browser and go to the following webpage: https://github.com/ggerganov/llama.cpp/releases
-4. On the webpage, download the latest llama-b1-bin-macos-x64.zip file. The b2589 release was the latest version when I downloaded it.
+4. On the webpage, download the latest llama-b1-bin-macos-x64.zip file. The b2589 release was the latest version when I downloaded it. (May 6 update: b2714 seems to be the last release that works on my Mac.)
 
     <img width="730" alt="Intel-Mac-Download-llamacpp-20240407" src="https://github.com/damnkittyworks/Local-LLMs-nonGPU-computers/assets/161262078/51bbba5f-10bc-40be-8352-01cce474a079">
 
