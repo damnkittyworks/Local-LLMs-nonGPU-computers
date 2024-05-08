@@ -1,4 +1,4 @@
-This page documents the tokens per second (tps) for the various models and devices I've tested using llama.cpp and the server.
+This page documents the tokens per second (tps) for the various models and devices I've tested using llama.cpp and the server unless noted.
 All devices, except for the Dell Xeon, are CPU only.
 
 ### Linux Mint
@@ -15,18 +15,21 @@ All devices, except for the Dell Xeon, are CPU only.
 |Phi-3 mini 4k instruct Q4_K_M|May 5: 3.6&nbsp;tps|May 5: 3.7&nbsp;tps|May 5: 8.7&nbsp;tps|May 5: 8.3&nbsp;tps (CPU only)<br>Couldn’t test GPU with the binary|
 |Phi-3 mini 4k instruct Q8|May 5: 2.9&nbsp;tps|May 5: 3.2&nbsp;tps|May 5: 6.0&nbsp;tps|May 5: 5.5&nbsp;tps (CPU only)<br>Couldn’t test GPU with the binary|
 
-X = Not supported - Model/quant too large OR so slow it’s unusable (such as 1 token every few minutes)
+X = Not supported - Model/quantization too large OR so slow it’s unusable (such as 1 token every few minutes)
 
 ### Intel Mac
 |Model|2018 MacBook Pro 8GB RAM|
 |---|---|
-|Llama 3 8B instruct Q4_K_M| |
-|Llama 3 8B instruct Q8_0| |
-|Llama 3 8B instruct BF16| |
+|Llama 3 8B instruct Q4_K_M|May 5: 3.8&nbsp;tps|
+|Llama 3 8B instruct Q8_0|X|
+|Llama 3 8B instruct BF16|X|
 |Llama 3 70B Instruct Q4_K_M|X|
 |||||
-|Mistral 7B instruct Q4_K_M| |
-|Mistral 7B instruct Q8_0| |
+|Mistral 7B instruct Q4_K_M|May 5: 4.1&nbsp;tps|
+|Mistral 7B instruct Q8_0|X|
 |||||
-|Phi-3 mini 4k instruct Q4_K_M| |
-|Phi-3 mini 4k instruct Q8| |
+|Phi-3 mini 4k instruct Q4_K_M (llamafile)|May 5: 9.5&nbsp;tps|
+|Phi-3 mini 4k instruct Q8 (llamafile)|May 5: 6.7&nbsp;tps|
+|Phi-3 mini 4k instruct BF16 (llamafile)|X|
+
+X = Not supported - Model/quantization too large OR so slow it’s unusable (such as 1 token every few minutes)
