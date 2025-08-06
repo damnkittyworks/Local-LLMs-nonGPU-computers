@@ -1,5 +1,5 @@
 # Running llama.cpp on an Intel Mac
-
+** IMPORTANT - August 2025 - these instructions are outdated! I will update this page in the next couple of weeks. **
 ---
 **Things to Know**
 * This guide details how to download and use a pre-built llama.cpp binary for macOS along with a 7B weight model on an Intel Mac.
