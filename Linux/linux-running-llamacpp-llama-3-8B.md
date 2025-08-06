@@ -1,4 +1,5 @@
 # Running llama.cpp on Linux Mint
+** IMPORTANT - August 2025 - these instructions are outdated! I will update this page in the next couple of weeks. **
 ---
 **Things to Know**
 * This guide details how to download and use llama.cpp with a 8B model on a Intel i7 laptop with 8 GB RAM and Linux Mint.
