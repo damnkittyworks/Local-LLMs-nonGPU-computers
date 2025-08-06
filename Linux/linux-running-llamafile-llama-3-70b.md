@@ -1,5 +1,5 @@
 # Running the Llama 3 70B llamafile on a HP ZBook G4 (Xeon E3-1505M, 64GB RAM) with Linux Mint
-
+** IMPORTANT - august 2025 - these instructions are outdated! I will bring this oage up to date in the next couple of weeks. **
 ---
 **Things to Know**
 * This guide details how to download and use the Llama 3 70B Q4_0 llamafile on a Xeon E3-1505M 64GB RAM laptop.
